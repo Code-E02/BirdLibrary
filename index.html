@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script href="js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<header class="bg-dark text-center py-4">
+  <div class="container">
+    <h1 class="display-4 text-warning">Bird Library</h1>
+    <p class="lead text-light">info on the birds of SL 220</p>
+  </div>
+</header>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand text-warning" href="#">Bald Eagle</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-light" href="#">Great grey Owl</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#about">Blue Heron</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#gallery">Red tailed Hawk</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#contact">Snowy Owl</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#contact">Swainson Hawk</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#contact">Trumpeter Swan </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<body style="background-color: rgb(54, 35, 35); color: white;">
+ 
+  <div class="container-fluid">
+    <div class="card" style="border-radius: 15px; background-color: #2c2c2c; padding: 15px;">
+      
+      <!-- Carousel Section -->
+      <style>
+        .carousel-img {
+          height: 400px;
+          object-fit: cover;
+          border-radius: 10px; /* Rounded corners for images */
+        }
+        h1 {
+          text-align: center;
+          font-size: 2rem;
+          color: #ffd700; /* Gold color for title */
+        }
+        .carousel-item {
+          text-align: center;
+        }
+        .card-body {
+          background-color: #333;
+          border-radius: 10px;
+          padding: 20px;
+        }
+        .card-title {
+          font-size: 1.8rem;
+          font-weight: bold;
+          text-align: center;
+          color: #ffd700; /* Gold color for title */
+        }
+        .card-text {
+          font-size: 1.1rem;
+          color: #fff;
+          line-height: 1.6;
+        }
+        .fun-fact {
+          color: #28a745; /* Green for fun fact text */
+          font-weight: bold;
+        }
+        .audio-container {
+          margin-top: 20px;
+          text-align: center;
+        }
+      </style>
+  
+      <!-- Carousel with Text & Image BALD EAGLE -->
+      <div id="carouselControls2" class="carousel slide" data-ride="carousel" data-interval="10000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h1>cool eagle photo</h1>
+            <img class="d-block w-100 carousel-img" src="BaldEagle.jpg" alt="Bald eagle photo">
+          </div>
+          <div class="carousel-item">
+            <h1>terrifying eagle photo</h1>
+            <img class="d-block w-100 carousel-img" src="Eagle-Head.jpg" alt="Heron photo">
+          </div>
+          <div class="carousel-item">
+            <h1>Watch the Bald Eagle Catch Salmon</h1>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" width="100%" height="auto" src="https://www.youtube.com/embed/hecXupPpE9o" title="Bald Headed Eagle catches salmon" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselControl2s" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselControls2" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+  
+      <!-- Card Body with Information -->
+      <div class="card-body">
+        <h5 class="card-title">BALD EAGLE</h5>
+        <p class="card-text">
+          <span class="fun-fact">Fun fact!</span> Eagles live up to 30 years in the wild! They can also dive at speeds of 100 m.p.h.
+          <br><br>
+          A bald eagle's wingspan is up to 6 feet for males and 8 feet for females!
+          <br><br>
+          The following noises are different calls or songs the bald eagle makes.
+        </p>
+  
+        <!-- Audio Player -->
+        <div class="audio-container">
+          <audio controls>
+            <source src="Bald Eagle Scream.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+ 
+    
+    
+      <div style ="padding: 10px; background-color: rgb(54, 35, 35);" class="card">
+       <div class="card" style="border-radius: 15px; background-color: #2c2c2c; padding: 15px;">
+      
+          
+      
+          <!-- Carousel with Text & Image GREY OWL -->
+          <div id="carouselControls" class="carousel slide" data-ride="carousel" data-interval="10000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h1>Cool Owl photo</h1>
+                <img class="d-block w-100 carousel-img" src="GreyOwl.jpg" alt="grey owl">
+              </div>
+              <div class="carousel-item">
+                <h1>terrifying grey owl</h1>
+                <img class="d-block w-100 carousel-img" src="greyOwl2.jpg" alt="Heron photo">
+              </div>
+              <div class="carousel-item">
+                <h1>Watch the Grey Owl in action</h1>
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item"  width="579" height="326" src="https://www.youtube.com/embed/YvfSorXUE_g" title="How Great Grey Owls Hunt Hidden Prey" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        <div class="card-body">
+        <h5  style="text-align:center" class="card-title"> Great Owl
+          <p class="card-text">
+            <span class="fun-fact">Fun fact!</span> despite weighing 2.5 pounds, grey owls dive up to a foot in packed snow to hunt. ice hard enough to support a 170lb human
+            <br>
+            <br>
+            The average wingspan of these owls are 5 feet.
+            <br>
+            <br>
+              the following noises are different calls or songs the Owl makes.
+          </p>
+          <audio  controls>
+            <source src="Great Grey Owl - Sounds.mp3" type="audio/mpeg">
+          </audio>
+        </h5>
+      </div>
+    </div>
+  </div>
+ </div>
+
+        
+          <div style ="padding: 10px; background-color: rgb(54, 35, 35);" class="card">
+            <div class="card" style="border-radius: 15px; background-color: #2c2c2c; padding: 15px;">
+           
+               
+           
+               <!-- Carousel with Text & Image Blue Heron -->
+               <div id="carouselControls3" class="carousel slide" data-ride="carousel" data-interval="10000">
+                 <div class="carousel-inner">
+                   <div class="carousel-item active">
+                     <h1>Cool Heron photo</h1>
+                     <img class="d-block w-100 carousel-img" src="Heron.jpg" alt="grey owl">
+                   </div>
+                   <div class="carousel-item">
+                     <h1>terrifying Heron photo</h1>
+                     <img class="d-block w-100 carousel-img" src="BlueHeron2.jpg" alt="Heron photo">
+                   </div>
+                   <div class="carousel-item">
+                     <h1>Watch the Bald Eagle Catch Salmon</h1>
+                     <div class="embed-responsive embed-responsive-16by9">
+                       <iframe class="embed-responsive-item" width="579" height="326" src="https://www.youtube.com/embed/qpYkzsJIQ4M" title="Herons Have a Secret Weapon for Catching Fish: the Deathblow | National Geographic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                     </div>
+                   </div>
+                 </div>
+                 <a class="carousel-control-prev" href="#carouselControls3" role="button" data-slide="prev">
+                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                   <span class="sr-only">Previous</span>
+                 </a>
+                 <a class="carousel-control-next" href="#carouselControls3" role="button" data-slide="next">
+                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                   <span class="sr-only">Next</span>
+                 </a>
+               </div>
+          <div class="card-body">
+          <h5  style="text-align:center" class="card-title"> GREAT BLUE HERON
+            <p class="card-text">
+              <span class="fun-fact">Fun fact!</span> These birds swallow their prey whole, their also Carnivores.
+              <br> <br>
+               Blue herons have a wingspan of 5.5 - 6.6 feet!
+              <br> <br>
+
+              Below this is an audio file for you to be listening to the various sounds of
+              the Blue Heron, 
+              <br>
+
+              <p3 style="color: red;"> WARNING THIS BIRD SOUNDS HORRIFYING</p3>
+            </p>
+            <audio  controls>
+              <source src="great blue heron   sound, call.mp3" type="audio/mpeg">
+            </audio
+          
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+              <div style ="padding: 10px;" class="card">
+                <img src ="RedTailedHawk.avif" alt="Red Tailed Hawk photo">
+                <div class="card-body">
+                <h5  style="text-align:center" class="card-title"> RED TAILED HAWK
+                  <p class="card-text">
+                    Below this is an audio file for you to be listening to the various sounds of
+                    the Red Tailed Hawk, the following noises are different calls or songs the Hawk makes.
+                    <p3 style="color:green">This is bird makes the "cartoon eagle noise"</p3>
+                  </p>
+                  <audio  controls>
+                    <source src="Red Tailed Hawk Call.mp3" type="audio/mpeg">
+                  </audio>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+                <div style ="padding: 10px;" class="card">
+                  <img src ="SnowyOwl.jpg" alt="snowy owl photo">
+                  <div class="card-body">
+                <h5  style="text-align:center" class="card-title"> SNOWY OWL
+                    <p class="card-text">
+                      Below this is an audio file for you to be listening to the various sounds of
+                      the Snowy Owl, the following noises are different calls or songs the Owl makes.
+                    </p>
+                    <audio  controls>
+                      <source src="Snowy Owl - Sounds.mp3" type="audio/mpeg">
+                    </audio>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+                  
+                  <div style ="padding: 10px;" class="card">
+                    <img src ="SwainsonHawk.jpg" alt="grey owl photo">
+                    <div class="card-body">
+                    <h5  style="text-align:center" class="card-title"> SWAINSON HAWK
+                      <p class="card-text">
+                        Below this is an audio file for you to be listening to the various sounds of
+                        the Swainson Hawk, the following noises are different calls or songs the Hawk makes.
+                      </p>
+                      <audio  controls>
+                        <source src="Swainson's Hawk Call.mp3" type="audio/mpeg">
+                      </audio>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+                    
+                    <div style ="padding: 10px;" class="card">
+                      <img src ="TrumpeterSwan.jpeg" alt="grey owl photo">
+                      <div class="card-body">
+                      <h5  style="text-align:center" class="card-title"> TRUMPETER SWAN
+                        <p class="card-text">
+                          Below this is an audio file for you to be listening to the various sounds of
+                          the Trumpeter swan, the following noises are different calls or songs the Swan makes.
+                        <p3 style="color:goldenrod" >HE ACTUALLY SOUNDS LIKE A TRUMPET 🎺</p3>
+                        </p>
+                        <audio  controls>
+                          <source src="Trumpeter Swan Trumpeting and Honking Video & Sounds _ Trumpet of The Swan.mp3" type="audio/mpeg">
+                        </audio>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+  
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+
+
+
+</body>
+</html>
